@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class Node {
+struct Node {
 
 };
 
@@ -11,5 +11,4 @@ int main() {
 
     return 0;
 }
-
 
