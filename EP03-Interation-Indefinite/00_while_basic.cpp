@@ -4,16 +4,14 @@ using namespace std;
 
 int main() {
 
-    bool condition1 = true;
-    bool condition2 = true;
-    bool condition3 = true;
+    bool a = true;
+    bool b = true;
+    bool c = true;
 
-    while (condition1 || condition2 || condition3) {
-
-        condition1 = !condition1;
-        condition2 = condition1 || condition2;
-        cout << condition1 << " " << condition2 << endl;
-
+    while (a || b || c) {
+        a = !a;
+        b = a || b;
+        cout << a << " " << b << endl;
     }
 
     return 0;

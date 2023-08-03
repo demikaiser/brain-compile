@@ -1,21 +1,24 @@
 #include <iostream>
 
 using namespace std;
-
+/*
+X  Y  X&&Y  X||Y  !X  !Y
+F  F  F     F     T   T 
+F  T  F     T     T   F 
+T  F  F     T     F   T 
+T  T  T     T     F   F 
+*/
 int main() {
 
     bool a = true;
-    bool b = true;
+    bool b = false;
     bool c = true;
 
-    // AND &&
-    cout << (a && b && c) << endl;
+    cout << (a && b || !c || !b && a) << endl;
 
-    // OR ||
-    cout << (a || b || c) << endl;
+    cout << ((!a && b) || (a && !b)) << endl;
 
-    // NOT !
-    cout << (!a) << endl;
+    cout << ((a && (b || !c)) && !a) << endl;
 
     return 0;
 }

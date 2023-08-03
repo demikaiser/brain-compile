@@ -3,16 +3,15 @@
 using namespace std;
 
 int main() {
-    int number = 3;
+    int number = 4;
 
-    if (0 < number && number < 3) {
-        cout << "" << endl;
-    } else if (2 < number && number < 5) {
-        cout << "" << endl;
+    if (0 < number && number < 5) {
+        cout << "1" << endl;
+    } else if (3 < number && number < 8) {
+        cout << "2" << endl;
     } else {
-        cout << "" << endl;
+        cout << "3" << endl;
     }
-
 
     return 0;
 }
