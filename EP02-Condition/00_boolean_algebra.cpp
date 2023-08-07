@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-/*
+/* <Truth Table>
 X  Y  X&&Y  X||Y  !X  !Y
 F  F  F     F     T   T 
 F  T  F     T     T   F 
