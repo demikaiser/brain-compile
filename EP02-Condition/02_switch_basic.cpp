@@ -20,5 +20,10 @@ int main() {
         default:
             cout << "5" << endl;
     }
+
+    char character = 'a';
+
+
+    
     return 0;
 }
