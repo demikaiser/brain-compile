@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
     int number = 3;
-
     switch (number) {
         case 1:
             cout << "1" << endl;
@@ -21,6 +20,5 @@ int main() {
         default:
             cout << "5" << endl;
     }
-
     return 0;
 }
