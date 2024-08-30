@@ -1,3 +1,6 @@
+console.log("start");
+
+
 let numbers = [3, 4, 1, 5, 2];
 
 for (let i = 0; i < numbers.length; i++) {
@@ -11,12 +14,29 @@ for (let i = 0; i < numbers.length; i++) {
     }
 
     // Swap
-    let tempNumber = numbers[i];
-    numbers[i] = numbers[currentIndex];
-    numbers[currentIndex] = tempNumber;
+    [numbers[currentIndex], numbers[i]] 
+        = [numbers[i], numbers[currentIndex]];
 }
 
-console.log(numbers);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
